@@ -1,0 +1,13 @@
+###
+POST https://localhost:5001/api/tarefa/create
+Content-Type: application/json
+
+{
+    "Titulo": "Colocar O Lixo Na Ru",
+    "Descricao": "Recolher o lixo de toda a casa e colocar no devido lugar para os coletores (separar os reciclaveis)",
+    "Responsavel": "Ezequiel",
+    "Prioridade": "Alta"
+}
+
+###
+GET https://localhost:5001/api/tarefa/list
